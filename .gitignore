@@ -1,0 +1,11 @@
+# VIRTUALENV
+.venv
+
+# PYCHARM
+.idea
+
+# PYTEST
+.pytest_cache
+
+# CACHE
+__pycache__
