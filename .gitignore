@@ -6,6 +6,9 @@
 
 # PYTEST
 .pytest_cache
+test-reports
+.coverage
+htmlcov
 
 # CACHE
 __pycache__

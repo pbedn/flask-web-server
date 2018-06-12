@@ -20,7 +20,7 @@ jobs:
       - run:
           command: |
             . .venv/bin/activate
-            pytest test
+            py.test --cov=src --cov-config=setup.cfg --cov-report html:test-reports -vv --junitxml=test-reports/output.xml tests
       - store_artifacts:
           path: test-reports/
           destination: tr1
